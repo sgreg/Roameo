@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        android:title="@string/settings_weekStartOn"
+        android:summary="%s"
+        android:key="weekStartDay"
+        android:defaultValue="0"
+        android:entries="@array/settingWeekStarts"
+        android:entryValues="@array/settingWeekStartsValues" />
+
+    <CheckBoxPreference
+        android:title="@string/settings_connectGoogleFit_title"
+        android:summary="@string/settings_connectGoogleFit_summary"
+        android:defaultValue="false"
+        android:key="connectGoogleFit" />
+
+    <PreferenceCategory
+        android:title="@string/settings_category_distance_title"
+        android:key="distanceSettings">
+        <CheckBoxPreference
+            android:title="@string/settings_calculateDistance_title"
+            android:summary="@string/settings_calculateDistance_summary"
+            android:defaultValue="false"
+            android:key="calculateDistance" />
+
+        <fi.craplab.roameo.ui.view.StepSizePreferenceDialog
+            android:title="@string/settings_stepSize_title"
+            android:summary="@string/settings_stepSize_summary"
+            android:key="distanceStepSize"
+            android:defaultValue="@integer/step_size_default"
+            app:min="@integer/step_size_min"
+            app:max="@integer/step_size_max" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_category_notifications_title">
+        <ListPreference
+            android:title="@string/settings_showNotification_title"
+            android:summary="%s"
+            android:key="showNotifications"
+            android:defaultValue="3"
+            android:entries="@array/settingStepNotification"
+            android:entryValues="@array/settingStepNotificationValues" />
+
+        <CheckBoxPreference
+            android:title="@string/settings_keepNotification_title"
+            android:summary="@string/settings_keepNotification_summary"
+            android:key="keepNotifications"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_category_dataStorage_title">
+        <CheckBoxPreference
+            android:title="@string/settings_storeNumbers_title"
+            android:summary="@string/settings_storeNumbers_summary"
+            android:defaultValue="true"
+            android:key="storePhoneNumber" />
+        <CheckBoxPreference
+            android:title="@string/settings_contactLookup_title"
+            android:summary="@string/settings_contactLookup_summary"
+            android:defaultValue="false"
+            android:key="lookupContacts" />
+        <CheckBoxPreference
+            android:title="@string/settings_emptyCounts_title"
+            android:summary="@string/settings_emptyCounts_summary"
+            android:defaultValue="false"
+            android:key="storeEmptyCounts" />
+    </PreferenceCategory>
+</PreferenceScreen>

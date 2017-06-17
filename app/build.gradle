@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.1'
+    defaultConfig {
+        applicationId "fi.craplab.roameo"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 10200   // xyyzz
+        versionName "1.2.0" // x.(y)y.(z)z
+    }
+    buildTypes {
+        debug {
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+        vanilla {
+            buildConfigField("Boolean", "TestFeatures", "false");
+            buildConfigField("Boolean", "DebugLogOutput", "false");
+        }
+        vanillaLog {
+            buildConfigField("Boolean", "TestFeatures", "false");
+            buildConfigField("Boolean", "DebugLogOutput", "true");
+        }
+        devFeatures {
+            buildConfigField("Boolean", "TestFeatures", "true");
+            buildConfigField("Boolean", "DebugLogOutput", "true");
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.google.android.gms:play-services-fitness:11.0.1'
+    compile 'com.michaelpardo:activeandroid:3.1.0-SNAPSHOT'
+    compile 'com.github.lecho:hellocharts-android:v1.5.8'
+    compile 'joda-time:joda-time:2.9.4'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.joanzapata.iconify:android-iconify-fontawesome:2.2.2'
+    compile 'com.joanzapata.iconify:android-iconify-simplelineicons:2.2.2'
+}

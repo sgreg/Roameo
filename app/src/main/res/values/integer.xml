@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="step_size_min">20</integer>
+    <integer name="step_size_max">100</integer>
+    <integer name="step_size_default">50</integer>
+</resources>

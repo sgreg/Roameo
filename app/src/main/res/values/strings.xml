@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Roameo</string>
+    <string name="app_package">fi.craplab.roameo</string>
+
+    <string name="app_slogan">Your call for a healthier life</string>
+    <string name="app_version_string">v%1$s</string>
+    <string name="app_about_author">C\u0413ApL\u2200b apps\nhttp://roameo.craplab.fi/</string>
+    <string name="app_description">Roameo is the one missing fitness tracker for the physical inactive. Is roaming through the rooms like a maniac while being on the phone the only workout you get? Roameo will track your step count so you can share it with the world. Don\'t miss out anymore to tell your friends about your awesome sportiness!</string>
+    <string name="app_website_link">http://roameo.craplab.fi</string>
+
+    <!-- Accessibility -->
+    <string name="contDesc_Roameo_logo">Roameo Logo</string>
+
+    <!-- Privacy Policy -->
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_link">http://roameo.craplab.fi/privacy</string>
+
+    <!-- Navigation drawer / menu -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_menu_summary">Summary</string>
+    <string name="navigation_menu_statistics">Statistics</string>
+    <string name="navigation_menu_details">Sessions</string>
+    <string name="navigation_menu_export">Export Data</string>
+    <string name="navigation_menu_settings">Settings</string>
+    <string name="navigation_menu_about">About</string>
+    <string name="navigation_menu_exit">Exit</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_open">Open</string>
+    <string name="action_info">Info</string>
+    <string name="action_close">Close</string>
+
+    <string name="settings_step_size_unit_metric">cm</string>
+
+    <string name="details_menu_google_fit">Upload to Google Fit</string>
+    <string name="details_menu_share">Share…</string>
+    <string name="details_menu_delete">Delete</string>
+
+    <string name="stats_week_title">Week %1$d, %2$d</string>
+
+    <string name="title_steps">Steps</string>
+    <string name="title_duration">Duration</string>
+    <string name="title_pace">Pace</string>
+
+    <string name="stats_sessions_instructions">Select a value from the graph to see the day\'s sessions. Touch then a session to see more details</string>
+    <string name="stats_no_session_for_day">No session for this day</string>
+
+    <string name="no_sessions_recorded">No sessions recorded</string>
+
+    <string name="call_unknown_number">Unknown Number</string>
+
+    <string name="call_number_in">{icon-call-in} %1$s</string>
+    <string name="call_number_out">{icon-call-out} %1$s</string>
+    <string name="call_pace">%1$.2f steps/minute</string>
+
+    <string name="number_placeholder">123</string>
+
+    <!-- Summary Fragment -->
+    <string name="summary_since">Recorded since</string>
+    <string name="summary_sessions">sessions</string>
+    <string name="summary_total_steps">total steps</string>
+    <string name="summary_total_duration">total duration</string>
+    <string name="summary_avg_steps">average steps</string>
+    <string name="summary_avg_duration">average duration</string>
+    <string name="summary_avg_pace">average pace</string>
+    <string name="summary_max_steps">maximum steps </string>
+    <string name="summary_max_duration">maximum duration</string>
+
+    <!-- IconTextView icon strings -->
+    <string name="icon_clock">{icon-clock}</string>
+    <string name="icon_chart">{icon-bar-chart}</string>
+    <string name="icon_hourglass">{icon-hourglass}</string>
+    <string name="icon_speedometer">{icon-speedometer}</string>
+
+    <!-- Settings -->
+    <string name="settings_weekStartOn">Week starts on…</string>
+    <string name="settings_connectGoogleFit_title">Connect with Google Fit</string>
+    <string name="settings_connectGoogleFit_summary">Upload Roameo data to Google Fit</string>
+    <string name="settings_category_distance_title">Distance Calculations</string>
+    <string name="settings_calculateDistance_title">Calculate Distance</string>
+    <string name="settings_calculateDistance_summary">Estimate a rough distance based on step size</string>
+    <string name="settings_stepSize_title">Step Size</string>
+    <string name="settings_stepSize_summary">Average step size you take while roaming on the phone</string>
+    <string name="settings_category_notifications_title">Notifications</string>
+    <string name="settings_showNotification_title">Show step count notifications</string>
+    <string name="settings_keepNotification_title">Keep previous notifications</string>
+    <string name="settings_keepNotification_summary">Show a new notification for each session</string>
+    <string name="settings_category_dataStorage_title">Data storage</string>
+    <string name="settings_storeNumbers_title">Store phone numbers</string>
+    <string name="settings_storeNumbers_summary">Store phone numbers to each session</string>
+    <string name="settings_contactLookup_title">Look up contacts for phone number</string>
+    <string name="settings_contactLookup_summary">Display contact name instead of plain phone number whenever possible</string>
+    <string name="settings_emptyCounts_title">Store empty counts</string>
+    <string name="settings_emptyCounts_summary">Store call sessions with zero steps walked to database</string>
+
+    <!-- Notification texts -->
+    <string name="notify_title_ongoing">Session ongoing</string>
+    <string name="notify_title_final">Session recorded</string>
+    <string name="notify_details_ongoing">%1$s since %2$s</string>
+    <string name="notify_details_final_preview">%1$s in %2$s</string>
+    <string name="notify_details_final">Start time: %1$s\nStep count: %2$d\nDuration: %3$s</string>
+
+    <!-- Share details -->
+    <string name="share_details_text">I had a great workout on the phone, walking %1$s during a %2$s call! #Roameo</string>
+
+    <!-- Google Fit Upload -->
+    <string name="google_fit_session_name">Phone call</string>
+    <string name="google_fit_session_description">Roameo tracked phone call id %1$d</string>
+    <string name="google_fit_session_identifier">Roameo-%1$d-%2$d</string>
+
+    <!-- READ_PHONE_STATE Permission and welcoming Dialogs -->
+    <string name="permission_title_first_start">Welcome Fellow Roamer!</string>
+    <string name="permission_title_normal">Permissions required</string>
+    <string name="permission_title_retry">Oh, no, you don\'t understand..</string>
+    <string name="permission_message_pre_runtime_perms">You\'re all set up.</string>
+    <string name="permission_message_first_start">You\'re almost good to go, there\'s just one little issue.\n\n%1$s</string>
+    <string name="permission_message_normal">In order to count your steps while you\'re on the phone, Roameo needs your permission to access Android\'s phone status manager.\n\nAndroid is about to ask you about granting these permissions.\nNow, these permissions also include \"making phone calls\". Be assured, Roameo has no interest in calling anyone on your behalf.</string>
+    <string name="permission_message_retry">Sorry to keep bothering you, but denying the permission means Roameo cannot do anything at all and is therefore nothing but a waste of space.</string>
+    <string name="permission_button_okay">Let\'s Roll!</string>
+    <string name="permission_button_retry_okay">Okay, got it.</string>
+    <string name="permission_button_retry_exit">Screw that, I quit!</string>
+
+    <!-- READ_CONTACTS Permission Dialog -->
+    <string name="contact_permission_message">In order to look up and map phone numbers to your contacts\' names, Roameo needs your permission to access the phone book.\n\nAndroid is about to ask you about granting these permissions. If you deny it, this feature will stay disabled.</string>
+    <string name="contact_permission_yes">Take me there!</string>
+    <string name="contact_permission_no">Never mind…</string>
+
+    <!-- WRITE_EXTERNAL_STORAGE Permission Dialog -->
+    <string name="storage_permission_message">In order to store the exported data into a file, Roameo needs your permission to write to the external storage.\n\nAndroid is about to ask you about granting these permissions. If you deny it, the data cannot be exported.</string>
+    <string name="storage_permission_yes">Let\'s do it…</string>
+    <string name="storage_permission_no">Forget it!</string>
+
+    <!-- Export Data -->
+    <string name="export_title">Export call sessions to JSON</string>
+    <string name="export_from">From</string>
+    <string name="export_to">To</string>
+    <string name="export_calendar_icon">{fa-calendar}</string>
+    <string name="export_all_sessions">Export all call sessions</string>
+    <string name="export_phone_numbers">Include phone numbers</string>
+    <string name="export_button_export">Export</string>
+    <string name="export_button_cancel">Retreat!</string>
+    <string name="export_toast_success">%1$s written to %2$s</string>
+    <string name="export_toast_failure">Writing call sessions failed!</string>
+
+    <!-- Delete Dialog -->
+    <string name="delete_dialog_title">Delete session?</string>
+    <string name="delete_dialog_message">Are you sure you want to delete this session? Forever and ever and ever?\nThere\'s no return.\nOnce you\'re gone, you can\'t come back. But then, maybe it really is better to burn out than to fade away?\n\nWell, anyway..\nSo you\'re sure about this, yes?</string>
+    <string name="delete_dialog_google_fit">Delete from Google Fit as well</string>
+    <string name="delete_dialog_button_yes">Yes. Yes, I am.</string>
+    <string name="delete_dialog_button_no">Fine, I keep it.</string>
+
+    <!-- Exit Dialog -->
+    <string name="exit_title">Stop step counting and exit?</string>
+    <string name="exit_message">Are you sure you want to exit Roameo and disable all step count tracking during phone calls?</string>
+    <string name="exit_button_exit">Yes. Bye.</string>
+    <string name="exit_button_back">No, never mind</string>
+</resources>

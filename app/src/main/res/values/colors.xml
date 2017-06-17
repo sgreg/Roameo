@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#33ccff</color>-->
+    <color name="colorPrimary">#307080</color>
+    <color name="colorPrimaryDark">#307080</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorAccent">#008899</color>
+
+    <color name="week_stat_axes">#333333</color>
+    <color name="week_stat_chart_lines">#dddddd</color>
+    <color name="week_stat_steps">#5090a0</color>
+    <color name="week_stat_duration">#60a0b0</color>
+    <color name="week_stat_pace">#70b0c0</color>
+
+    <color name="detail_data_chart_lines">@color/week_stat_axes</color>
+    <color name="detail_data_steps">@color/week_stat_steps</color>
+</resources>

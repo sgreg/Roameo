@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <item
+        android:id="@+id/menu_testing"
+        android:title="Testing"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@+id/testing_start_recording"
+                android:title="Start Sensor" />
+            <item
+                android:id="@+id/testing_stop_recording"
+                android:title="Stop Sensor" />
+
+            <item
+                android:id="@+id/testing_dump_recording"
+                android:title="Dump Session DB to Log" />
+
+            <item
+                android:id="@+id/testing_create_random"
+                android:title="Create random call session" />
+
+            <item
+                android:id="@+id/testing_start_movement_detection"
+                android:title="Start movement detection" />
+            <item
+                android:id="@+id/testing_stop_movement_detection"
+                android:title="Stop movement detection" />
+        </menu>
+    </item>
+</menu>
