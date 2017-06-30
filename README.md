@@ -64,6 +64,13 @@ Session exporter "x call session(s)"
 
 ### Miscellaneous
 
+#### Git repository history
+
 Because of ..uhm, reasons, there is no git history before version 1.2.0 available here.  
 Sorry about that.
+
+
+#### Google Fit API
+
+Note, if you're planning to build your own `.apk` from this code, you won't be able to use any of the Google Fit related functionality out of the box. The Google Fit API authenticates applications through the keystore fingerprints, so you need to set this up for your own fingerprints. See [Google Fit documentation](https://developers.google.com/fit/android/get-api-key) for more information on that.
 
