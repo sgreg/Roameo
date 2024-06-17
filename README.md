@@ -12,8 +12,8 @@ Session exporter "x call session(s)"
 ### Links
 
 [Official website](http://roameo.craplab.fi)  
-[Project website](http://sgreg.fi/projects/roameo)  
-[Google Play](https://play.google.com/store/apps/details?id=fi.craplab.roameo)  
+[Project website](http://sgreg.craplab.fi/projects/roameo)  
+~~Google Play~~ [defunct]
 
 
 ### Features
